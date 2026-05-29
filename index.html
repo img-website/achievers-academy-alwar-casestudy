@@ -758,7 +758,7 @@
       <div class="score-icon"><i class="fab fa-instagram" style="color:#E1306C;"></i></div>
       <div class="score-value">2/10</div>
       <div class="score-channel">Instagram</div>
-      <div class="score-note">~566 followers, no highlights, no Reels</div>
+      <div class="score-note">~836 followers, no highlights, no Reels</div>
     </div>
     <div class="score-card med">
       <div class="score-icon"><i class="fab fa-facebook" style="color:#1877F2;"></i></div>
@@ -789,67 +789,174 @@
 ══════════════════════════════════════════ -->
 <div class="section">
   <div class="section-label"><i class="fas fa-globe"></i> Website Audit</div>
-  <h2 class="section-title">Current Website —<br><em>Issues &amp; Opportunities</em></h2>
-  <p class="section-sub">What's holding achieversacademyalwar.in back from ranking and converting visitors into admissions.</p>
+  <h2 class="section-title">Current Website —<br><em>Full Issues &amp; Opportunities</em></h2>
+  <p class="section-sub">A deep audit of achieversacademyalwar.in — every issue found, live on the site today.</p>
 
   <div class="audit-grid">
+    <!-- LEFT: ALL ISSUES -->
     <div class="audit-card bad">
-      <div class="audit-head"><i class="fas fa-times-circle"></i> CURRENT — achieversacademyalwar.in</div>
+      <div class="audit-head"><i class="fas fa-times-circle"></i> ISSUES FOUND — achieversacademyalwar.in</div>
 
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-times"></i></div>
         <div class="a-body">
-          <strong>Broken image filenames <span class="badge b-crit">CRITICAL</span></strong>
-          <span>Images saved as "Untitled design (5).png" — Google cannot read them, hurting all rankings</span>
+          <strong>About page returns blank / 404 <span class="badge b-crit">CRITICAL</span></strong>
+          <span>about.html exists in links but loads empty — students who click "About" see nothing</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Results page is completely empty <span class="badge b-crit">CRITICAL</span></strong>
+          <span>results.html has only headings — no actual student results, ranks, or selection data</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Counter shows "0" on homepage <span class="badge b-crit">CRITICAL</span></strong>
+          <span>Years, IIT Selections, MBBS Selections all display "0" — JavaScript animation broken</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Broken / unreadable image filenames <span class="badge b-crit">CRITICAL</span></strong>
+          <span>"Untitled design (5).png", "10.png", "IMG_20251016.jpg" — Google cannot index any of them</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Meaningless alt text on all images <span class="badge b-miss">MISSING</span></strong>
+          <span>"Desktop Slide 2", "Faculty 1", "School building" — no SEO value in any image alt tag</span>
         </div>
       </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-times"></i></div>
         <div class="a-body">
           <strong>No Schema / Structured Data <span class="badge b-miss">MISSING</span></strong>
-          <span>Google cannot identify the institute type, courses, or location from the code</span>
+          <span>Google cannot identify institute type, courses, location or reviews from the page code</span>
         </div>
       </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-times"></i></div>
         <div class="a-body">
-          <strong>No Blog or SEO Content <span class="badge b-miss">MISSING</span></strong>
-          <span>Zero articles targeting "NEET coaching Alwar" or "JEE classes Alwar" — competitors capture this traffic</span>
+          <strong>No Google Analytics 4 or Search Console <span class="badge b-miss">MISSING</span></strong>
+          <span>Zero visibility into visitors, traffic sources, or which pages perform best</span>
         </div>
       </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-times"></i></div>
         <div class="a-body">
-          <strong>Unprofessional WhatsApp CTA <span class="badge b-weak">WEAK</span></strong>
-          <span>Prefilled message is "hello+123" — poor first impression for every prospective student</span>
+          <strong>No Open Graph / Social Meta Tags <span class="badge b-miss">MISSING</span></strong>
+          <span>Sharing any page on WhatsApp or Facebook shows no image or preview — looks unprofessional</span>
         </div>
       </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-times"></i></div>
         <div class="a-body">
-          <strong>Heavy Slider (12+ images) <span class="badge b-slow">SLOW</span></strong>
-          <span>Loads both mobile and desktop sliders — 12+ large images hurting page speed on every visit</span>
+          <strong>Duplicate meta description across pages <span class="badge b-miss">MISSING</span></strong>
+          <span>Courses page &amp; Results page have identical meta description — Google penalises duplicate meta</span>
         </div>
       </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-times"></i></div>
         <div class="a-body">
-          <strong>No GA4 / Conversion Tracking <span class="badge b-miss">MISSING</span></strong>
-          <span>Zero visibility into who visits, where they come from, or how many enquire</span>
+          <strong>Outdated meta-keywords tag used <span class="badge b-weak">WEAK</span></strong>
+          <span>Google has ignored this tag since 2009 — signals to Google that SEO is outdated</span>
         </div>
       </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-times"></i></div>
         <div class="a-body">
-          <strong>No Dedicated Course Pages <span class="badge b-weak">WEAK</span></strong>
-          <span>NEET, JEE, Olympiad all on one page — each cannot rank individually on Google</span>
+          <strong>WhatsApp CTA has placeholder text "hello+123" <span class="badge b-weak">WEAK</span></strong>
+          <span>Every student who taps WhatsApp sends a test message — very poor first impression</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Dead internal links — Facilities section <span class="badge b-weak">WEAK</span></strong>
+          <span>Classrooms, Study Areas, Computer Centre all link to "#" — every click goes nowhere</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Typo on homepage: "Amminities" <span class="badge b-weak">WEAK</span></strong>
+          <span>"Facilities &amp; Amminities" visible on live homepage — should be "Amenities"</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>"Latest Resources" section is empty <span class="badge b-miss">MISSING</span></strong>
+          <span>Section heading exists on homepage but has no content below it — looks broken</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>All courses link to same page <span class="badge b-weak">WEAK</span></strong>
+          <span>NEET, JEE, Olympiad all go to /courses.html — no individual ranking for each course</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Outdated exam years in course listings <span class="badge b-weak">WEAK</span></strong>
+          <span>"NEET 2024" still shown on active course cards — makes the website look unmaintained</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Faculty section has no names or bios <span class="badge b-weak">WEAK</span></strong>
+          <span>4 faculty photos labelled "Faculty 1, 2, 3, 4" — no credentials, names, or experience shown</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>Heavy sliders load on all devices <span class="badge b-slow">SLOW</span></strong>
+          <span>9+ slider images (desktop + mobile) load simultaneously — severely slows page on mobile</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>No fee information anywhere on site <span class="badge b-miss">MISSING</span></strong>
+          <span>Students cannot find course fees — forced to call, leading to high drop-off rate</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-times"></i></div>
+        <div class="a-body">
+          <strong>No blog or SEO content <span class="badge b-miss">MISSING</span></strong>
+          <span>Zero articles targeting "NEET coaching Alwar" or "JEE classes Alwar" — all search traffic goes to competitors</span>
         </div>
       </div>
     </div>
 
+    <!-- RIGHT: IMPROVEMENTS -->
     <div class="audit-card good">
-      <div class="audit-head"><i class="fas fa-check-circle"></i> WHAT WILL BE IMPROVED — New Website Direction</div>
+      <div class="audit-head"><i class="fas fa-check-circle"></i> WHAT WILL BE IMPROVED</div>
 
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>About &amp; Results pages built properly <span class="badge b-added">ADDED</span></strong>
+          <span>Full About page with history, vision, faculty bios — Results page with real selection data</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>Counter JS fixed &amp; working <span class="badge b-impr">FIXED</span></strong>
+          <span>19+ years, IIT &amp; MBBS selections animated correctly — builds instant credibility</span>
+        </div>
+      </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-check"></i></div>
         <div class="a-body">
@@ -861,43 +968,108 @@
         <div class="a-icon"><i class="fas fa-check"></i></div>
         <div class="a-body">
           <strong>Schema markup on all pages <span class="badge b-added">ADDED</span></strong>
-          <span>EducationalOrganization + Course + LocalBusiness schema fully implemented</span>
-        </div>
-      </div>
-      <div class="audit-item">
-        <div class="a-icon"><i class="fas fa-check"></i></div>
-        <div class="a-body">
-          <strong>Blog &amp; SEO content strategy <span class="badge b-added">ADDED</span></strong>
-          <span>Regular keyword-targeted articles capture Alwar NEET/JEE search traffic</span>
-        </div>
-      </div>
-      <div class="audit-item">
-        <div class="a-icon"><i class="fas fa-check"></i></div>
-        <div class="a-body">
-          <strong>Professional WhatsApp &amp; Enquiry CTAs <span class="badge b-impr">IMPROVED</span></strong>
-          <span>Branded enquiry flows — more admission conversions from every visitor</span>
-        </div>
-      </div>
-      <div class="audit-item">
-        <div class="a-icon"><i class="fas fa-check"></i></div>
-        <div class="a-body">
-          <strong>Optimised, fast-loading assets <span class="badge b-impr">IMPROVED</span></strong>
-          <span>Compressed images, lazy loading, modern formats — faster on all devices</span>
+          <span>EducationalOrganization + Course + LocalBusiness schema — Google understands everything</span>
         </div>
       </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-check"></i></div>
         <div class="a-body">
           <strong>GA4 + Search Console + Tag Manager <span class="badge b-added">ADDED</span></strong>
-          <span>Full data on traffic, search queries, and conversion funnel</span>
+          <span>Full visibility into traffic, search queries, and admission conversion funnel</span>
         </div>
       </div>
       <div class="audit-item">
         <div class="a-icon"><i class="fas fa-check"></i></div>
         <div class="a-body">
-          <strong>Dedicated pages per course <span class="badge b-added">ADDED</span></strong>
-          <span>Separate NEET, JEE, Olympiad, Foundation pages — each ranking individually</span>
+          <strong>Open Graph meta tags on every page <span class="badge b-added">ADDED</span></strong>
+          <span>Sharing on WhatsApp/Facebook shows branded image, title, and description</span>
         </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>Unique meta titles &amp; descriptions per page <span class="badge b-impr">IMPROVED</span></strong>
+          <span>Every page has a custom, keyword-rich meta — no duplicates, better rankings</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>Professional WhatsApp &amp; Enquiry CTAs <span class="badge b-impr">IMPROVED</span></strong>
+          <span>Branded message, clear CTA — every student interaction starts professionally</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>All internal links working &amp; purposeful <span class="badge b-impr">FIXED</span></strong>
+          <span>Facilities, courses, and navigation all link to real, content-rich pages</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>Dedicated pages per course with location keywords <span class="badge b-added">ADDED</span></strong>
+          <span>/neet-coaching-alwar, /jee-coaching-alwar — each ranking individually on Google</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>Faculty profiles with names, qualifications &amp; photos <span class="badge b-added">ADDED</span></strong>
+          <span>Named faculty builds trust — parents and students compare faculty before taking admission</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>Optimised, fast-loading images (WebP format) <span class="badge b-impr">IMPROVED</span></strong>
+          <span>Compressed to WebP, lazy loaded, correct responsive sizing — much faster on mobile</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>Fee information page added <span class="badge b-added">ADDED</span></strong>
+          <span>Transparent fee structure reduces friction and increases qualified enquiries</span>
+        </div>
+      </div>
+      <div class="audit-item">
+        <div class="a-icon"><i class="fas fa-check"></i></div>
+        <div class="a-body">
+          <strong>Blog &amp; SEO content strategy activated <span class="badge b-added">ADDED</span></strong>
+          <span>Regular keyword-targeted articles capture Alwar NEET/JEE search traffic from day one</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPREHENSIVE ISSUE SUMMARY TABLE -->
+  <div style="margin-top:32px;background:#fff;border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+    <div style="background:var(--dark);padding:18px 24px;display:flex;align-items:center;gap:10px;">
+      <i class="fas fa-clipboard-list" style="color:#8ab4f8;font-size:16px;"></i>
+      <span style="color:#fff;font-size:14px;font-weight:700;">Complete Website Audit Summary — achieversacademyalwar.in</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);">
+      <div style="padding:20px 24px;border-right:1px solid var(--border);text-align:center;">
+        <div style="font-size:32px;font-weight:700;color:var(--red);">5</div>
+        <div style="font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.08em;margin-top:4px;">Critical Issues</div>
+        <div style="font-size:11px;color:var(--red);margin-top:6px;">404 page · Empty results · Broken counter · Image names · WhatsApp placeholder</div>
+      </div>
+      <div style="padding:20px 24px;border-right:1px solid var(--border);text-align:center;">
+        <div style="font-size:32px;font-weight:700;color:var(--orange);">7</div>
+        <div style="font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.08em;margin-top:4px;">SEO Gaps</div>
+        <div style="font-size:11px;color:var(--orange);margin-top:6px;">No schema · No GA4 · No OG tags · Duplicate meta · No sitemap · No blog · Old keywords</div>
+      </div>
+      <div style="padding:20px 24px;border-right:1px solid var(--border);text-align:center;">
+        <div style="font-size:32px;font-weight:700;color:#b45309;">5</div>
+        <div style="font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.08em;margin-top:4px;">Content Issues</div>
+        <div style="font-size:11px;color:#b45309;margin-top:6px;">Typo · Dead links · Empty section · Outdated dates · No fee info</div>
+      </div>
+      <div style="padding:20px 24px;text-align:center;">
+        <div style="font-size:32px;font-weight:700;color:var(--blue);">20</div>
+        <div style="font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0.08em;margin-top:4px;">Total Issues</div>
+        <div style="font-size:11px;color:var(--blue);margin-top:6px;">All fixable within Phase 1 of the BoostronixX engagement</div>
       </div>
     </div>
   </div>
@@ -923,12 +1095,12 @@
         </div>
       </div>
       <div class="sc-stats">
-        <div class="sc-stat"><div class="sc-stat-n">~566</div><div class="sc-stat-l">Followers</div></div>
+        <div class="sc-stat"><div class="sc-stat-n">~836</div><div class="sc-stat-l">Followers</div></div>
         <div class="sc-stat"><div class="sc-stat-n">150+</div><div class="sc-stat-l">Posts</div></div>
         <div class="sc-stat"><div class="sc-stat-n">Low</div><div class="sc-stat-l">Engagement</div></div>
       </div>
       <ul class="issues">
-        <li><i class="fas fa-exclamation-triangle"></i>Follower count very low — 19-year-old institute with only ~566 followers online</li>
+        <li><i class="fas fa-exclamation-triangle"></i>Follower count very low — 19-year-old institute with only ~836 followers online</li>
         <li><i class="fas fa-exclamation-triangle"></i>No Story Highlights — results, faculty, courses not visible to profile visitors</li>
         <li><i class="fas fa-exclamation-triangle"></i>No Reels strategy — static posts only, organic reach severely limited</li>
         <li><i class="fas fa-exclamation-triangle"></i>Bio missing WhatsApp link or admission enquiry CTA</li>
@@ -1085,7 +1257,7 @@
           <td><i class="fab fa-instagram" style="color:#E1306C;"></i> Instagram Followers</td>
           <td><strong>~1,623</strong> <span class="ck"><i class="fas fa-check"></i></span></td>
           <td><strong>~4,515</strong> <span class="ck"><i class="fas fa-check"></i></span></td>
-          <td>~566 <span class="cx"><i class="fas fa-times"></i></span></td>
+          <td>~836 <span class="cx"><i class="fas fa-times"></i></span></td>
         </tr>
         <tr>
           <td><i class="fab fa-facebook" style="color:#1877F2;"></i> Facebook Page Likes</td>
@@ -1195,7 +1367,7 @@
       <h3><i class="fas fa-frown" style="color:#ea4335;font-size:22px;"></i> Current Digital Perception</h3>
       <p class="sub">What a student sees today</p>
       <div class="pos-item"><i class="fas fa-arrow-right" style="color:#ea4335;"></i><span>A website with broken image filenames and no SEO content targeting Alwar searches</span></div>
-      <div class="pos-item"><i class="fas fa-arrow-right" style="color:#ea4335;"></i><span>An Instagram with ~566 followers — does not reflect 19+ years of coaching excellence</span></div>
+      <div class="pos-item"><i class="fas fa-arrow-right" style="color:#ea4335;"></i><span>An Instagram with ~836 followers — does not reflect 19+ years of coaching excellence</span></div>
       <div class="pos-item"><i class="fas fa-arrow-right" style="color:#ea4335;"></i><span>Hard to find on Google when searching "best NEET coaching Alwar" or "JEE institute Alwar"</span></div>
       <div class="pos-item"><i class="fas fa-arrow-right" style="color:#ea4335;"></i><span>Very few Google reviews compared to competitors — raises doubt in students' minds</span></div>
       <div class="pos-item"><i class="fas fa-arrow-right" style="color:#ea4335;"></i><span>IIT &amp; MBBS selections not showcased — biggest trust builder missing online</span></div>
@@ -1434,9 +1606,9 @@ const mkBars = (data) => ({
   labels: labels3
 });
 
-new Chart(document.getElementById('igChart'),      { type:'bar', data: mkBars([566, 1623, 4515]),   options: baseOpts });
+new Chart(document.getElementById('igChart'),      { type:'bar', data: mkBars([836, 1623, 4515]),   options: baseOpts });
 new Chart(document.getElementById('reviewChart'),  { type:'bar', data: mkBars([34,  241,  23]),     options: baseOpts });
-new Chart(document.getElementById('igCompChart'),  { type:'bar', data: mkBars([566, 1623, 4515]),   options: baseOpts });
+new Chart(document.getElementById('igCompChart'),  { type:'bar', data: mkBars([836, 1623, 4515]),   options: baseOpts });
 new Chart(document.getElementById('fbCompChart'),  { type:'bar', data: mkBars([2700,10000,7400]),   options: baseOpts });
 </script>
 
